@@ -94,12 +94,12 @@ The use of class weights significantly improves performance, especially for mino
 ### Training Curves
 The following figure shows the training and validation loss, accuracy, and mIoU curves for the experiment with class weights, indicating stable convergence and good generalization.
 
-![Training and Validation Curves](images/output.png)
+![Training and Validation Curves](output.png)
 
 ### Visual Results
 The figure below presents segmentation results for three validation samples, showing input images, ground truth masks, point annotations, and predicted masks. The predicted masks closely resemble the ground truth, with minor errors in cluttered regions.
 
-![Visual Results](images/results.png)
+![Visual Results](results.png)
 
 ## Future Work
 - Experiment with varying numbers of point annotations to find an optimal balance between annotation effort and performance.
