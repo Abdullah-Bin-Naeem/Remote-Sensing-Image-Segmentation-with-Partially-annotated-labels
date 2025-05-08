@@ -86,8 +86,8 @@ The project focuses on training a segmentation model with sparse point annotatio
 ## Results
 
 The model was evaluated on the ISPRS Potsdam validation set:
-- **Without Class Weights**: Accuracy: 75.2%, mIoU: 58.3%
-- **With Class Weights**: Accuracy: 80.5%, mIoU: 65.7%
+- **Without Class Weights**: Accuracy: 68.2%, mIoU: 48.3%
+- **With Class Weights**: Accuracy: 74.24%, mIoU: 57%
 
 The use of class weights significantly improves performance, especially for minority classes (e.g., cars, clutter). I hypothesize that increasing the number of point annotations beyond 20,000 would further enhance accuracy, though diminishing returns may occur as annotations approach full supervision.
 
