@@ -48,7 +48,7 @@ The project focuses on training a segmentation model with sparse point annotatio
    - Expected file naming: `Image_{id}.tif` for images and `Label_{id}.tif` for labels, where `id` ranges from 0 to 2399.
 
 4. **Download Pretrained Model** (optional):
-   - Place the trained model weights (`best_model.pth`) in the `checkpoints/` directory for inference.
+   - Place the trained model weights (`best_model.pth`) in the `checkpoints/` directory for inference('Not available here due to its size, in case you need it: https://drive.google.com/file/d/1hQU03EYxX5Ta8Zw2tAUZ6HQ31yD9S2_F/view?usp=sharing').
    - Alternatively, train the model using `train.ipynb` to generate your own weights.
 
 5. **Add Result Images**:
